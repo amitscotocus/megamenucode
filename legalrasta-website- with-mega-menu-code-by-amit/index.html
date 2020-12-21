@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>jQuery Mega Menu Plugin Demo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/megamenu.css">
+	<link rel="stylesheet" href="css/megamenu.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+	<header id="top" class="wide-layout">
+		<div id="header-wrapper">
+			<div class="container">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<!-- Title Area -->
+						<li class="toggle-topbar"><a href="#" class="left-off-canvas-toggle">Menu</a>
+						</li>
+						<img class="amt" src="img/logoo.png">
+					</ul>
+					<section class="top-bar-section">
+						<ul id="menu-main-menu-1" class="right">
+							<li class="megamenu has-children has-dropdown"><a href="#">Form a Business</a>
+								<ul class="dropdown" style="border-top: 3px solid #037fc5;">
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">Popular entities(Private Limited)</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Limited Libility (LLP)</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Private Limited Company Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Partnership Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Proprietorship Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Public LImited Company Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;OPC Registration</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">Company Conversion</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;partnership to LLP</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Pvt Ltd Company to Public Ltd Company</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Proprietorship to Private Limited Company</a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">Special entities(MSME/SSL)</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;MSME | SSI registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Section 8 Company registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Nidhi Company registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Indian Subsdiary registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Micro finance Company Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;NFBC registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Producer registration</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="megamenu has-children has-dropdown"><a href="#">Registration</a>
+								<ul class="dropdown" style="border-top: 3px solid #037fc5;">
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">Food License</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;FSSAI License</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Drug License</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Partnership Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Eating House License Registraion</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">License(IEC)</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Import Export Code registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;ISO registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Producer registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trade License</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 13px;">Others</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Digital Signature (DSC)</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;ESI registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Employee Provident Fund</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Tan Registration</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="megamenu has-children has-dropdown"><a href="#">Tax</a>
+								<ul class="dropdown" style="border-top: 3px solid #037fc5;">
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">GST</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;GST Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;GST Return</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Free GST Software</a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">ITR</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Income Tax Return Filling</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Business Income Return</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Bulk Return Filling</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Respond to tax notice</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">TDS</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;TDS Return Filling</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="megamenu has-children has-dropdown"><a href="#">Trademark/Patent</a>
+								<ul class="dropdown" style="border-top: 3px solid #037fc5;">
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">Trademark</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Asignment</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Renewal</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Search</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Objection</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Trademark Registration in USA</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">Patent</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Patent Registration</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Provisional Patent</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Patent Search</a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+											<li>
+												<a href=""></a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">Copyright</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Copyright Registration</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="megamenu has-children has-dropdown"><a href="#">Compliances</a>
+								<ul class="dropdown" style="border-top: 3px solid #037fc5;">
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">Compiances Package</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Accounting/ Bookkeeping Services</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;ROC Compliance</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Company Annual Filling</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;LLP Annual Filling</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Maintance of minutes</a>
+											</li>
+										</ul>
+									</li>
+									<li class="has-children has-dropdown"><a href="#" style="color: #565454; font-size: 15px;">Updation of Records</a>
+										<ul class="dropdown">
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Allotment of Shares</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Change Registered Office</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Change in Directors</a>
+											</li>
+											<li><a href="#" class="fa fa-caret-right" style="font-size: 17px;">&nbsp;&nbsp;Change Authorized Capital of Company</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="megamenu has-children has-dropdown"><a href="#">Partner</a>
+							</li>
+							<li class="nav-item">
+								<a href='#sec4' class="nav-link">	<i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;8750008585</i>
+								</a>
+								<!-- </li>
+						  <li class="nav-item">
+							<a href='#sec4' class="nav-link">
+							  Cloud Computing
+							</a>
+						  </li> -->
+						</ul>
+					</section>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- background image start here  -->
+	<div class="demo_wrap">
+		<img src="img/bg.jpg">
+		<div class="container">
+			<div class="row ml-3">
+				<div class="block">	<i class="hovicon effect-1 sub-a"><i class="fa fa-file-text" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>GST REGISTRATION</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-2 sub-b"><i class="fa fa-building" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>&nbsp;&nbsp;&nbsp;COMPANY
+							<BR>REGISTRATION</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-3 sub-a"><i class="fa fa-trademark" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>&nbsp;&nbsp;&nbsp;TRADEMARK
+							<BR>&nbsp;&nbsp;REGISTRATION</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-4 sub-a"><i class="fa fa-cutlery" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>FSSAI FOOD LICENSE</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-1 sub-a"><i class="fa fa-download" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>IMPORT EXPORT CODE</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-2 sub-b"><i class="fa fa-file-excel-o" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>GST RETURN</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-5 sub-b"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>TDS RETURN</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-6 sub-b"><i class="fa fa-inr" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>INCOME TAX RETURN</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-7 sub-b"><i class="fa fa-building" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>MSME/SSI REGISTRATION</p>
+					</div>
+				</div>
+				<div class="block">	<i class="hovicon effect-8 sub-b"><i class="fa fa-money" aria-hidden="true"></i></i>
+					<div class="amsi">
+						<p>MUTUAL FUNDS</p>
+					</div>
+				</div>
+				<!-- <div class="mr">
+			<a href="#" class="myButton">SEE OTHER SERVICES</a>
+		</div> --></div>
+			<br>
+			<br>
+		</div>
+	</div>
+	<!-- why choose us start here  -->
+	<br>
+	<h2 style="text-align: center;" style="font: 30px;">Why to choose us!</h2>
+	<h6 style="text-align: center;">How we serve you the best</h6><br>
+	<div class="container">
+		<div class="row">
+				<div class="col-lg-3">
+					<img src="img/1.png" alt="">
+					<p>30+ Offices in India</p>
+					<img src="img/3.png" alt="">
+					<p>Save Your Time</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/2.png" height="100px" width="100px" alt="">
+					<p>10+ Years Experience</p>
+					<img src="img/4.png" alt="">
+					<p>Cash Back Guarantee</p>
+				</div>
+				<div class="col-lg-6">
+					<!-- <a href="https://www.youtube.com/watch?v=lZupSaoZdwI"><img src="img/6.jpg" alt=""></a> -->
+					<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+						<img src="img/6.jpg" style="cursor:pointer" />
+					 </div>
+					 <div style="display:none">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/NSIg1XT-KM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					 </div>
+				</div>
+		</div>
+	</div>
+	<!-- why choose us end here  -->
+	<!-- background image end here  -->
+	
+	<!-- footer start here  -->
+	<footer class="mainfooter" role="contentinfo">
+		<div class="footer-middle">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-3 col-sm-6">
+				<!--Column1-->
+				<div class="footer-pad">
+				  <h6>FORM A COMPANY</h6>
+				  <ul class="list-unstyled">
+					<li><a href="#">Private Limited Registration</a></li>
+					<li><a href="#">Limited Liability Partnership (LLP)</a></li>
+					<li><a href="#">One Person Company</a></li>
+					<li><a href="#">MSME Registration</a></li>
+					<li><a href="#">ISO Registration</a></li>
+				  </ul>
+				</div>
+				<div class="footer-pad">
+					<h6>LEGALRAASTA</h6>
+					<ul class="list-unstyled">
+					  <li><a href="#">Join Us</a></li>
+					  <li><a href="#">About Us</a></li>
+					  <li><a href="#">Contact Us</a></li>
+					  <li><a href="#">Learning Portal</a></li>
+					  <li><a href="#">Franchise Partner</a></li>
+					  <li><a href="#">Refund Policy</a></li>
+					  <li><a href="#">Career</a></li>
+					</ul>
+				  </div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<!--Column1-->
+				<div class="footer-pad">
+					<h6>REGISTRATION</h6>
+					<ul class="list-unstyled">
+					  <li><a href="#">FSSAI License</a></li>
+					  <li><a href="#">Import Export Code</a></li>
+					  <li><a href="#">Trademark Registration</a></li>
+					  <li><a href="#">Patent Registration</a></li>
+					  <li><a href="#">ESI Registration</a></li>
+					</ul>
+				</div>
+				<div class="footer-pad">
+					<div class="amiu">
+						<h6>DELHI OFFICE</h6>
+						<p>Legal Raasta</p>
+						<p>B-300, Saraswati Vihar, Ring road (Near Pitampura Metro Station) Delhi, 110034</p>
+						<p>Phone: +91 8750008585</p>
+						<p>Email: contact@legalraasta.com</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<!--Column1-->
+				<div class="footer-pad">
+					<h6>TAXATION</h6>
+					<ul class="list-unstyled">
+					  <li><a href="#">Income Tax Return</a></li>
+					  <li><a href="#">TDS Return</a></li>
+					  <li><a href="#">GST Registration</a></li>
+					  <li><a href="#">GST Return</a></li>
+					  <li><a href="#">GST Software</a></li>
+					</ul>
+				</div>
+				<div class="footer-pad">
+					<div class="amiu">
+						<p>Flat No. B/104, Ritu Raj , Om Sai Complex</p>
+						<p>Shiv Sena Gali, Bhayandar (West)</p>
+						<p>Thane – 401101</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<!--Column1-->
+				<div class="footer-pad">
+					<h6>OTHERS</h6>
+					<ul class="list-unstyled">
+					  <li><a href="#">Business Loans</a></li>
+					  <li><a href="#">Loan Against Property</a></li>
+					  <li><a href="#">Online Seller Finance</a></li>
+					  <li><a href="#">Equipment Financing</a></li>
+					  <li><a href="#">Professional Tax Registration</a></li>
+					</ul>
+				</div>
+				<div class="footer-pad">
+					<div class="amiu">
+						<p>Flat No. B/104, Ritu Raj , Om Sai Complex</p>
+						<p>Shiv Sena Gali, Bhayandar (West)</p>
+						<p>Thane – 401101</p>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	  <div class="contaienr">
+		  <div class="row">
+	  <div class="container-fluid foot1" style="background: linear-gradient(to right, #282a2b, #282a2b); height:50px;">
+		<p class="cop">By continuing past this page, you agree to our <a href="https://www.legalraasta.com/terms-and-conditions/">Terms and Conditions</a> and <a href=""Privacy Policy</a> | Copyright © 2017 LegalRaasta.com| All Rights Reserved |</p>
+	  </div>
+	</div>
+</div>
+	<!-- footer end here  -->
+
+
+
+
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/megamenu.js"></script>
+</body>
+
+</html>
